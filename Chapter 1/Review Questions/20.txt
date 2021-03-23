@@ -1,0 +1,1 @@
+If an error occurs, an exception can be thrown describing the error

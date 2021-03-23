@@ -1,0 +1,11 @@
+import java.io.*;
+
+class FarToCel {
+    public static void main(String[] args) throws IOException {
+	BufferedReader in;
+	in = new BufferedReader(new InputStreamReader(System.in));
+	System.out.print("Enter a temperature in Farenheit: ");
+	int farenheit = in.readLine();
+	int celsius = 5 * ()
+    }
+}

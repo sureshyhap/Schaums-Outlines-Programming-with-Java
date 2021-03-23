@@ -1,0 +1,1 @@
+A stream object is an object where data flows to or from other objects

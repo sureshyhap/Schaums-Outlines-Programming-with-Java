@@ -1,0 +1,7 @@
+class Digits {
+    public static void main(String[] args) {
+	int n = 5814;
+	int first = n / 1000;
+	n = 
+    }
+}

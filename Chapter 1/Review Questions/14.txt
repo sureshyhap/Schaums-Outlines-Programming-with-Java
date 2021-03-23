@@ -1,0 +1,1 @@
+It is the set of standard libraries usable in Java programs 

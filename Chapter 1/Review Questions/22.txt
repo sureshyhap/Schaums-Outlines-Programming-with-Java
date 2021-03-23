@@ -1,0 +1,1 @@
+A variable has a built-in type while an object is an instance of a class whether it be part of the Java API or defined by the programmer

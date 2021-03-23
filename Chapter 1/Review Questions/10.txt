@@ -1,0 +1,1 @@
+A compiler turns source code into machine code runnable on that particular machine. An interpreter executes each statement line by line
