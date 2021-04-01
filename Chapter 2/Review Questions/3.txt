@@ -1,0 +1,1 @@
+Because they would both be empty. The substring method does not include the character at the second index position so it won't include the first since they have the same value. So nothing is included

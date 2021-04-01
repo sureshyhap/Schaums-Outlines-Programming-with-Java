@@ -1,0 +1,1 @@
+A method called with a parameter being the return type of another method
