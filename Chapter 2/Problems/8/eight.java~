@@ -1,0 +1,9 @@
+import java.io.*;
+
+class Capitalize {
+    public static void main(String[] args) throws IOException {
+	System.out.print("Enter two words: ");
+	BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+	
+    }
+}

@@ -1,0 +1,6 @@
+class TestStringClass {
+    public static void main(String[] args) {
+	String name = "Suresh Joseph Michael Yhap";
+	
+    }
+}

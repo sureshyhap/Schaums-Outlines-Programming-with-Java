@@ -1,0 +1,6 @@
+class MobyDick {
+    public static void main(String[] args) {
+	String s = "Call me Ishmael";
+	
+    }
+}
