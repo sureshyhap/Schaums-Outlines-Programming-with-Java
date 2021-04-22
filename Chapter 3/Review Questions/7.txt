@@ -1,0 +1,4 @@
+a. If x is between 4 and 8, x will be printed once
+b. If x is between 4 and 8, x will be printed twice
+c. x will be printed a maximum of 1 time
+d. x will be printed no matter what

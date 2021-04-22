@@ -1,0 +1,14 @@
+For the first the else matches the second if. For the second the else matches the first if.
+
+a. if (x > 4) {
+       if (x < 8)
+           x = 0;
+       else x = 1;
+   }
+
+b. if (x > 4) {
+       if (x < 8)
+           x = 0;
+   }
+   else
+       x = 1;

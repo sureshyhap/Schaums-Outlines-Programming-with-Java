@@ -1,0 +1,11 @@
+a. Not equivalent. If a is false and b is true, then the left will be false but
+   the right will be true
+b. Equivalent
+c. Equivalent
+d. Equivalent
+e. Not equivalent. If a is true b is false and c is false the left will be
+   false but the right will be true
+f. Equivalent
+g. Equivalent
+h. Not equivalent. If a is false and b is false and c is true the left will be
+   false but the right will be true

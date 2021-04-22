@@ -1,0 +1,1 @@
+Switch block without break statements meaning if a case matches, all the code underneath it will execute (including those from other cases)
