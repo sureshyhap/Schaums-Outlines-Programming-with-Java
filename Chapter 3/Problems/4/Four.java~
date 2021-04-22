@@ -1,0 +1,5 @@
+class Rand_Double {
+    public static void main(String[] args) {
+	
+    }
+}

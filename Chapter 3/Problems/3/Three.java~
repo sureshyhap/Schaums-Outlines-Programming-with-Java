@@ -1,0 +1,5 @@
+class Rand_Int_Max {
+    public static void main(String[] args) {
+	
+    }
+}
