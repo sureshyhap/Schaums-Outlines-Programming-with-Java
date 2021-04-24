@@ -1,0 +1,8 @@
+import java.util.Random;
+
+class Divisible {
+    public static void main(String[] args) {
+	Random r = new Random();
+	
+    }
+}

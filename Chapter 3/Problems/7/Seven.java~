@@ -1,0 +1,12 @@
+import java.io.*;
+
+class Three_Names {
+    public static void main(String[] args) throws IOException {
+	BufferedReader in;
+	in = new BufferedReader(new InputStreamReader(System.in));
+	String s1 = in.readLine();
+	String s2 = in.readLine();
+	String s3 = in.readLine();
+	
+    }
+}

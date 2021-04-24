@@ -1,0 +1,9 @@
+import java.util.Random;
+
+class Rand_Year {
+    public static void main(String[] args) {
+	Random r = new Random();
+	int year = 1800 + r.nextInt(200);
+	
+    }
+}
