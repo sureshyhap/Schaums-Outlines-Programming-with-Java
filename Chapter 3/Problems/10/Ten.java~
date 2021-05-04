@@ -1,0 +1,8 @@
+import java.util.Random;
+
+class Grade {
+    public static void main(String[] args) {
+	// Grade from 60 to 99
+	int grade_in_range = Random.nextInt()
+    }
+}
