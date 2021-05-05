@@ -1,0 +1,11 @@
+import java.util.Random;
+
+class Min_and_Max {
+    public static void main(String[] args) {
+	Random random = new Random();
+	int x1 = random.nextInt(1000);
+	int x2 = random.nextInt(1000);
+	int x3 = random.nextInt(1000);
+	int x4 = random.nextInt(1000);
+    }
+}

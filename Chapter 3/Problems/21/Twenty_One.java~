@@ -1,0 +1,11 @@
+import java.io.*;
+
+class String_Ordering {
+    public static void main(String[] args) throws IOException {
+	BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+	String s1 = in.readLine();
+	String s2 = in.readLine();
+	String s3 = in.readLine();
+	
+    }
+}
