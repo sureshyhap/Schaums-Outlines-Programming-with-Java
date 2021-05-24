@@ -1,0 +1,7 @@
+import java.util.Random;
+
+class Summation {
+    public static void main(String[] args) {
+	
+    }
+}
