@@ -1,0 +1,1 @@
+A while loop executes its body as long as a condition is true. An if statement executes its body only once if the condition is true

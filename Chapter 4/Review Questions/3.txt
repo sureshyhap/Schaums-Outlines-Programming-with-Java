@@ -1,0 +1,1 @@
+A while loop checks the condition at the start. A do while loop checks it after executing the body. Therefore a do while loop will always run at least once

@@ -1,0 +1,1 @@
+Going through all the steps of a program in order. It helps you spot bugs

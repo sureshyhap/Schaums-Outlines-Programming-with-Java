@@ -1,0 +1,1 @@
+A break statement breaks out of the loop completely. A continue statement stops the current iteration, executes the update to the variable in the last section of the for loop and then starts a new iteration

@@ -1,0 +1,1 @@
+You would use a labeled break when you want to break out of multiple loops while you would use an unlabeled one to break out of a single loop

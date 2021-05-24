@@ -1,0 +1,1 @@
+A condition checked in a loop that tests whether the loop should continue or not
