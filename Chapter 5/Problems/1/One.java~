@@ -1,0 +1,8 @@
+class Babbage {
+    public static void main(String[] args) {
+	
+    }
+    public static int babbage_func(int x) {
+	return (x * x) + x + 41;
+    }
+}

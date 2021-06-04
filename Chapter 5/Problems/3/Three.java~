@@ -1,0 +1,11 @@
+class Max_3 {
+    public static void main(String[] args) {
+	
+    }
+    static int max(int x, int y) {
+	return x > y ? x : y;
+    }
+    static int max(int x, int y, int z) {
+	return max(max(x, y), z);
+    }
+}

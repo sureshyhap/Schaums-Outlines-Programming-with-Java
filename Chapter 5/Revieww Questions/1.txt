@@ -1,0 +1,1 @@
+A variable that is only visible to the function it is in
