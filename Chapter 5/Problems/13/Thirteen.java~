@@ -1,0 +1,8 @@
+class LCM {
+    public static void main(String[] args) {
+
+    }
+    static long lcm(long m, long m) {
+	
+    }
+}
