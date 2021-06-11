@@ -1,0 +1,1 @@
+Its Point field could be changed changing the Line object even though the Line object wasn't directly changed

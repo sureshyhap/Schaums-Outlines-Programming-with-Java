@@ -1,0 +1,1 @@
+A constructor creates an object. It has no return type and has the same name as the class

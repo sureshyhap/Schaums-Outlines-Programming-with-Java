@@ -1,0 +1,1 @@
+A copy constructor initializes (creates) an object. Assignment gives the already existing object a new value

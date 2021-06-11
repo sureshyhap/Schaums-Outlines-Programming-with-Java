@@ -1,0 +1,1 @@
+A class method is associated with the class while instance methods are associated with objects (instances of the class)

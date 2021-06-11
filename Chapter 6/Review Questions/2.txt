@@ -1,0 +1,1 @@
+A set of field values sets the state of the class

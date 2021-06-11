@@ -1,0 +1,1 @@
+An accessor method returns a field to be used for some purpose. A mutator method changes the field to some value

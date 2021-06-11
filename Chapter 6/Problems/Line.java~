@@ -1,0 +1,3 @@
+class Line {
+    private double slope, y_int;
+}

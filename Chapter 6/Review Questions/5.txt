@@ -1,0 +1,1 @@
+It uses == because it works for primitive fields while the Line class must use more complex comparisons because not all of its fields are primitives

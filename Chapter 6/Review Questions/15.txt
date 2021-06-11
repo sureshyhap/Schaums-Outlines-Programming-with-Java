@@ -1,0 +1,1 @@
+An enforced condition; a state that the object must be in

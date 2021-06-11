@@ -1,0 +1,1 @@
+A field is a member of a class; it's state. A local variable is a variable that is part of a method

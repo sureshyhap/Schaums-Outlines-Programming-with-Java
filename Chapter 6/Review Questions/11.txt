@@ -1,0 +1,1 @@
+A public member is accessible anywhere in the program while a private member is only accessible within the class it is declared in

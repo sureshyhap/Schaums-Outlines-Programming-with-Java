@@ -1,0 +1,29 @@
+class Point {
+    public Point(int x, int y) {
+	this.x = x;
+	this.y = y;
+    }
+    public boolean equals(Point p) {
+	return (x == p.x && y == p.y);
+    }
+    public int get_x() {
+	return x;
+    }
+    public int get_y() {
+	return y;
+    }
+    public String toString() {
+	return ("(" + x + ", " + y + ")");
+    }
+    public void translate(int dx, int dy) {
+	x += dx;
+	y += dy;
+    }
+    public void rotate(double theta) {
+	int x2 = (int) ((x * Math.cos(theta)) - (y * Math.sin(theta)));
+	int y2 = (int) ((x * Math.sin(theta)) + (y * Math.cos(theta)));
+	x = x2;
+	y = y2;
+    }
+    private int x, y;
+}

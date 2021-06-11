@@ -1,0 +1,1 @@
+Because for the Purse class no constructors were defined but for the Line and Point classes there were defined constructors

@@ -1,0 +1,7 @@
+public class Three {
+    public static void main(String[] args) {
+	Point p = new Point(2, -2);
+	p.rotate(Math.PI / 2);
+	System.out.println(p);
+    }
+}

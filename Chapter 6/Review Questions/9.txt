@@ -1,0 +1,1 @@
+Because a nonstatic method is associated with objects. But a static method can be called before any objects even exist

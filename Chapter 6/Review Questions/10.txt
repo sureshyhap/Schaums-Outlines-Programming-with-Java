@@ -1,0 +1,1 @@
+Objects might be separate but equal if they represent the same thing. References are only equal if they refer to the exact same object in memory

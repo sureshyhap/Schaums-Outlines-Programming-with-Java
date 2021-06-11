@@ -1,0 +1,1 @@
+It is much more useful than the default automatically generated toString() method

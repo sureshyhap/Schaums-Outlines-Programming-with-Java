@@ -1,0 +1,1 @@
+No, because it gets hard to control where the field might be changed if anything was allowed to access it. If it could only be changed through mutators, you would know where it is changed. Also you can change the field to something else and the only function you have to rewrite is the mutator

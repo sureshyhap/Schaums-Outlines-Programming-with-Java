@@ -1,0 +1,1 @@
+A constructor that constructs an object based on another object of the same class type
