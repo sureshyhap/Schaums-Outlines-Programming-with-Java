@@ -1,0 +1,6 @@
+public class Day {
+    public Day() {
+
+    }
+    private int day_number;
+}

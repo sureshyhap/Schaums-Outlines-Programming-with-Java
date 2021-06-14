@@ -1,0 +1,6 @@
+public class Nine {
+    public static void main(String[] args) {
+	Purse p = new Purse();
+	
+    }
+}

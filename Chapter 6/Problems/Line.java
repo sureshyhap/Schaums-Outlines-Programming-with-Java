@@ -25,5 +25,18 @@ class Line {
     public boolean is_parallel_to(Line line) {
 	return slope == line.slope;
     }
+    public boolean is_perpendicular_to(Line line) {
+	return ((slope * line.slope) == -1);
+    }
+    // y - dy = m(x - dx) + b
+    // y = mx + (b - m * dx + dy)
+    public void translate(double dx, double dy) {
+	y_intercept = y_intercept - (slope * dx) + dy;
+    }
+    // m_2 = tan(arctan(m_1) + theta)
+    //     = (m_1 + tan(theta)) / (1 - m_1 * tan(theta))
+    public void rotate(double theta) {
+	slope = (slope + Math.tan(theta)) / (1 - slope * Math.tan(theta));
+    }
     private double slope, y_intercept;
 }
