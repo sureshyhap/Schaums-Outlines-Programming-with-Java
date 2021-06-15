@@ -25,10 +25,5 @@ class Point {
 	x = x2;
 	y = y2;
     }
-    static double distance(Point p1, Point p2) {
-	double d1 = (p2.get_x() - p1.get_x()) * (p2.get_x() - p1.get_x());
-	double d2 = (p2.get_y() - p1.get_y()) * (p2.get_y() - p1.get_y());
-	return Math.sqrt(d1 + d2);
-    }
     private double x, y;
 }

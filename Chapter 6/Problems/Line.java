@@ -7,6 +7,14 @@ class Line {
 	this.slope = slope;
 	y_intercept = p.get_y() - slope * p.get_x();
     }
+    public Line(Point p1, Point p2) {
+	slope = (p2.get_y() - p1.get_y()) / (p2.get_x() - p1.get_x());
+	y_intercept = p1.get_y() - slope * p1.get_x();
+    }
+    public Line(Line l) {
+	slope = l.slope;
+	y_intercept = l.y_intercept;
+    }
     public boolean contains(Point p) {
 	return (p.get_y() == (slope * p.get_x() + y_intercept));
     }
@@ -37,6 +45,10 @@ class Line {
     //     = (m_1 + tan(theta)) / (1 - m_1 * tan(theta))
     public void rotate(double theta) {
 	slope = (slope + Math.tan(theta)) / (1 - slope * Math.tan(theta));
+    }
+    public Line copy() {
+	Line l = new Line(slope, y_intercept);
+	return l;
     }
     private double slope, y_intercept;
 }
