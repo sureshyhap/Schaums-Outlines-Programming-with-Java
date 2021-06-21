@@ -1,0 +1,2 @@
+a. Copy from a starting at index 4 3 elements over to b starting at index 6
+b. Copy from a starting at index 3 5 elements over to b starting at index 1

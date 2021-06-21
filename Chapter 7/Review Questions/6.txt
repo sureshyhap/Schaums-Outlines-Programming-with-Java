@@ -1,0 +1,1 @@
+A null array is a reference that hasn't been allocated memory. A zero element array has even though it has no space for elements

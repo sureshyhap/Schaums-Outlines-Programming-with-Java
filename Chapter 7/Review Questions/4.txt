@@ -1,0 +1,1 @@
+You can do ch_arr[i] to access an element of the character array but for Strings you use the .charAt(i) method

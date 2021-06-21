@@ -1,0 +1,4 @@
+a. Sets all the elements on the main diagonal to 44
+b. Sets each element to the value of the sum of its indices i and j
+c. Makes the elements on the upper triangular half of the matrix to negative of the corresponding element on the lower triangular half and negates the main diagonal elements
+d. Sets the lower triangular half of the matrix to be the negative of the top triangular half (excluding the main diagonal)
