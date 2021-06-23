@@ -36,6 +36,40 @@ public class IntArrays {
 	}
 	System.out.println("}");
     }
+    // Find a better way to print with different types
+    public static void print(double[] a) {
+	if (a == null || a.length == 0) {
+	    return;
+	}
+	System.out.print("{" + a[0]);
+	for (int i = 1; i < a.length; ++i) {
+	    System.out.print("," + a[i]);
+	}
+	System.out.println("}");
+    }    
+    public static void print(int[][] a) {
+	if (a == null || a.length == 0) {
+	    return;
+	}
+	for (int i = 0; i < a.length; ++i) {
+	    for (int j = 0; j < a[0].length; ++j) {
+		System.out.print(a[i][j] + " ");
+	    }
+	    System.out.println();
+	}
+    }
+    // Find a better way to print with different types
+    public static void print(double[][] a) {
+	if (a == null || a.length == 0) {
+	    return;
+	}
+	for (int i = 0; i < a.length; ++i) {
+	    for (int j = 0; j < a[0].length; ++j) {
+		System.out.print(a[i][j] + " ");
+	    }
+	    System.out.println();
+	}
+    }    
     public static int[] random_int_array(int length, int range) {
 	int[] rand_nums = new int[length];
 	for (int i = 0; i < length; ++i) {
@@ -245,7 +279,117 @@ public class IntArrays {
 	int[][] result = delete_col(delete_row(a, i), j);	
 	return result;
     }
-
+    static void swap(int[][] a, int i1, int j1, int i2, int j2) {
+	int temp = a[i1][j1];
+	a[i1][j1] = a[i2][j2];
+	a[i2][j2] = temp;
+    }
+    static int[][] random_int_array(int r, int c, int range) {
+	int[][] a = new int[r][c];
+	for (int i = 0; i < r; ++i) {
+	    for (int j = 0; j < c; ++j) {
+		a[i][j] = random.nextInt(range);
+	    }
+	}
+	return a;
+    }
+    static boolean equals(int[][] a, int[][] b) {
+	if ((a.length != b.length) || (a[0].length != b[0].length)) {
+	    return false;
+	}
+	for (int i = 0; i < a.length; ++i) {
+	    for (int j = 0; j < a[0].length; ++j) {
+		if (a[i][j] != b[i][j]) {
+		    return false;
+		}
+	    }
+	}
+	return true;
+    }
+    static double inner_product(double[] x, double[] y) {
+	// Assumes lengths are equal
+	double sum = 0;
+	for (int i = 0; i < x.length; ++i) {
+	    sum += (x[i] * y[i]);
+	}
+	return sum;
+    }
+    static double[][] outer_product(double[] x, double[] y) {
+	// Assumes lengths are equal
+	double[][] result = new double[x.length][y.length];
+	for (int i = 0; i < x.length; ++i) {
+	    for (int j = 0; j < y.length; ++j) {
+		result[i][j] = x[i] * y[j];
+	    }
+	}
+	return result;
+    }
+    static int[][] transpose(int[][] a) {
+	int[][] result = new int[a[0].length][a.length];
+	for (int i = 0; i < a.length; ++i) {
+	    for (int j = 0; j < a[0].length; ++j) {
+		result[j][i] = a[i][j];
+	    }
+	}
+	return result;
+    }
+    static int[][] pascals_triangle(int n) {
+	int[][] result = new int[n + 1][n + 1];
+	for (int i = 0; i <=n; ++i) {
+	    for (int j = 0; j <= i; ++j) {
+		if (j == 0 || j == i) {
+		    result[i][j] = 1;
+		}
+		else {
+		    result[i][j] = result[i - 1][j - 1] + result[i - 1][j];
+		}
+	    }
+	}
+	return result;
+    }
+    static int[] fibonacci(int n) {
+	int[] result = new int[n + 1];
+	result[0] = 1;
+	result[1] = 1;
+	if (n < 2) {
+	    return result;
+	}
+	for (int i = 2; i <= n; ++i) {
+	    result[i] = result[i - 1] + result[i - 2];
+	}
+	return result;
+    }
+    static int[] prime(int n) {
+	int[] p = new int[n + 1];
+	p[0] = 2;
+	int num_primes = 1;
+	int num_to_test = 3;
+	boolean is_prime = true;
+	while (num_primes <= n) {
+	    int prev = 1;
+	    // Only have to test if previous primes are factors
+	    // because every composite number has a prime factorization
+	    while (p[prev] != 0) {
+		if (num_to_test % p[prev] == 0) {
+		    is_prime = false;
+		    break;
+		}
+		++prev;
+	    }
+	    if (is_prime) {
+		p[prev] = num_to_test;
+		++num_primes;
+	    }
+	    else {
+		is_prime = true;
+	    }
+	    num_to_test += 2;
+	}
+	return p;
+    }
+    
+    ////////////////////////////////////////////////////////
+    
     private static int[][] delete_row(int[][] a, int row) {
 	int[][] result = new int[a.length - 1][a[0].length];
 	int k = 0;
