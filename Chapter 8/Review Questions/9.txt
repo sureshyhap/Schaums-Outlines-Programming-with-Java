@@ -1,0 +1,1 @@
+A derived class object takes the form of a base class object to call a base class method

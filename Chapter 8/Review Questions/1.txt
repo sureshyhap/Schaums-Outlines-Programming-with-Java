@@ -1,0 +1,1 @@
+Composition is a "has a" relationship while inheritance is an "is a" relationship
