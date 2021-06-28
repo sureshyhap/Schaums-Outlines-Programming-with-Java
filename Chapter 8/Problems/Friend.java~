@@ -1,0 +1,6 @@
+public class Friend {
+    protected String name;
+    protected String telephone;
+    protected Friend next;
+    static Friend list;
+}

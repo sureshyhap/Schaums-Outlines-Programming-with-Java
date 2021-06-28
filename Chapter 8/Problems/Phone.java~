@@ -1,0 +1,8 @@
+public class Phone {
+    public Phone() {
+
+    }
+
+    private String area_code;
+    private String number;
+}

@@ -1,0 +1,7 @@
+public class Url {
+    public Url(String site_name) {
+	this.site_name = site_name;
+    }
+    
+    private String site_name;
+}

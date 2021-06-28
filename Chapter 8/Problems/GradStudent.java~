@@ -1,0 +1,3 @@
+public GradStudent extends CollegeStudent {
+    
+}

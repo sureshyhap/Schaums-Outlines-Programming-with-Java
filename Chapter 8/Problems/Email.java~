@@ -1,0 +1,8 @@
+public class Email {
+    public Email() {
+
+    }
+
+    private String user_name;
+    private String website;
+}

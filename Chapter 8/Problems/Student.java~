@@ -1,0 +1,8 @@
+public class Student extends Person2 {
+    public Student(Name name, char sex, int credits, double gpa) {
+
+    }
+
+    protected int credits;
+    protected double gpa;
+}

@@ -1,0 +1,6 @@
+public class Person {
+    protected String name;
+    protected char sex;
+    protected String id;
+    
+}
