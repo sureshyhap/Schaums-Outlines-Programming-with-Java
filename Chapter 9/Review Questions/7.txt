@@ -1,0 +1,1 @@
+An abstract class has at least one abstract method and thus cannot be instantiated

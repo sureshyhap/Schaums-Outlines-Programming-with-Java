@@ -1,0 +1,1 @@
+An interface, a class, an array, or a primitive

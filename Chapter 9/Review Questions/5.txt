@@ -1,0 +1,3 @@
+It returns a negative int if the object is less than the parameter.
+It returns zero if the object is the same as the parameter.
+It returns a positive int if the object is greater than the parameter.

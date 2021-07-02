@@ -1,0 +1,1 @@
+It saves rewriting code for classes that share functionality

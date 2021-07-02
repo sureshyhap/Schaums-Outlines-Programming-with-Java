@@ -1,0 +1,1 @@
+It is useful for classes whose objects can be compared in some way

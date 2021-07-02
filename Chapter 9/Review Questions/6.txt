@@ -1,0 +1,1 @@
+A subtype extends or implements a supertype

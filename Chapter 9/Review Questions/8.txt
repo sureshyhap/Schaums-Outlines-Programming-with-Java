@@ -1,0 +1,1 @@
+An abstract class can be partially implemented. It can implement methods that may or may not be overriden but all of an interface's methods must be implemented in the class that extends it

@@ -1,0 +1,4 @@
+public interface Movable {
+    public set_x(double x);
+    public set_y(double y);
+}
