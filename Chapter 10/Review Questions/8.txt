@@ -1,0 +1,1 @@
+It is an object that points to objects in a collection

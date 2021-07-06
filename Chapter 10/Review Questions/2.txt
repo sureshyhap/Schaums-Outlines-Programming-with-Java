@@ -1,0 +1,1 @@
+It is an interface that all collections implement

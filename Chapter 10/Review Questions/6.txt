@@ -1,0 +1,1 @@
+It is an array that is a class that implements Collection

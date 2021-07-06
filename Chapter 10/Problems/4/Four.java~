@@ -1,0 +1,10 @@
+public class Four {
+    public static void main(String[] args) {
+
+    }
+    public static Object test_get_element_at(Collection c, int index) {
+	
+    }
+}
+
+    
