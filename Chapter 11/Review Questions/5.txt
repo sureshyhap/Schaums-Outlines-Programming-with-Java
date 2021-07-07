@@ -1,0 +1,1 @@
+A catch clause only executes if its specific exception parameter is thrown. A finally clause always executes at the end

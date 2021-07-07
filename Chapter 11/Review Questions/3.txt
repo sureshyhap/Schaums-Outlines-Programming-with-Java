@@ -1,0 +1,1 @@
+If a method and the one that calls it both throw the exception of a given type
