@@ -1,0 +1,15 @@
+	s: ABC
+Number Format Exception
+	i: 0
+	s: 123
+	n: 123
+	m: 10
+	i: 1
+	s: 0
+	n: 0
+Arithmetic Exception
+	i: 2
+	s:
+Number Format Exception
+	i: 3
+Goodbye
