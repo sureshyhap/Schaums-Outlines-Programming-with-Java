@@ -1,0 +1,1 @@
+It is encoding of text into binary to be stored or transmitted

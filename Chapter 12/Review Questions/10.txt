@@ -1,0 +1,1 @@
+It is a field that is not encoded when the object is serialized

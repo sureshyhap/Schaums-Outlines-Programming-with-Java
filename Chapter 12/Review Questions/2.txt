@@ -1,0 +1,1 @@
+A binary stream is for data files such as audio, video files. A text stream is for human readable text files

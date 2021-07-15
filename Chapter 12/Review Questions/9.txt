@@ -1,0 +1,1 @@
+It is one that is encoded when serialization takes place
