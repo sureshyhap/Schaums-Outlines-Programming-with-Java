@@ -1,0 +1,24 @@
+import java.io.*;
+import java.util.*;
+
+public class Read_Countries {
+    public Read_Countries() throws IOException, ClassNotFoundException {
+	BufferedReader country_file_in = new BufferedReader(new InputStreamReader(System.in));
+	Collection<String> files = new ArrayList<String>();
+	System.out.print("Enter filename to deserialize: ");
+	String filename = country_file_in.readLine();
+	while (filename != null) {
+	    files.add(filename);
+	    System.out.print("Enter filename to deserialize: ");
+	    filename = country_file_in.readLine();
+	}
+	int length = files.size();
+	String[] files_array = (String[]) files.toArray();
+	for (int i = 0; i < length; ++i) {
+	    ObjectInputStream in = new ObjectInputStream(new FileInputStream(files_array[i]));
+	    Object object = in.readObject();
+	    System.out.println((String) object);
+	    in.close();
+	}
+    }
+}

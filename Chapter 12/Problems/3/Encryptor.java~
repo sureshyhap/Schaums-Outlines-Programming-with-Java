@@ -1,0 +1,6 @@
+public class Encryptor {
+    private int key;
+    public Encryptor(int key) {
+	this.key = key;
+    }
+}
