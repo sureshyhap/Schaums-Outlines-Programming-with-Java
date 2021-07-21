@@ -1,0 +1,10 @@
+import java.io.*;
+import java.util.Random;
+
+public class Five {
+    public static void main(String[] args) throws IOException {
+	
+    }
+
+    //    private static Random random = new Random();
+}

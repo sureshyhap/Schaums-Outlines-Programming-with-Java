@@ -1,0 +1,14 @@
+apples 12
+bananas 15
+cherries 11
+dates 22
+eggs 33
+figs 44
+grapes 77
+lemons 18
+melons 15
+oranges 26
+peaches 26
+raisins 88
+tomatoes 36
+zucchinis 17
