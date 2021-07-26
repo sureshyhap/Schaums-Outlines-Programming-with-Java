@@ -1,0 +1,1 @@
+It is used for editable text that can serve as input for an event listener

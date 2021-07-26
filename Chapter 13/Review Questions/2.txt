@@ -1,0 +1,1 @@
+A component is more general. A container is a component that can contain other components

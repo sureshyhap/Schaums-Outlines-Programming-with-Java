@@ -1,0 +1,8 @@
+import java.awt.*;
+import javax.swing.*;
+
+public class Fourteen {
+    public static void main(String[] args) {
+	
+    }
+}

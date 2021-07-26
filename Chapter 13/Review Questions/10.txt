@@ -1,0 +1,1 @@
+It waits for some sort of input (an event) and performs an action based on the event

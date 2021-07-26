@@ -1,0 +1,12 @@
+import javax.swing.*;
+
+public class MainFrame extends JFrame {
+    public static void main(String[] args) {
+	new MainFrame();
+    }
+    MainFrame() {
+	setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	setSize(300, 200);
+	setVisible(true);
+    }
+}

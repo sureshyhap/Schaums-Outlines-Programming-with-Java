@@ -1,0 +1,1 @@
+It specifies how components will be organized in a window

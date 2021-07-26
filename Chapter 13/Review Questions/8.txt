@@ -1,0 +1,1 @@
+Red green and blue values that comprise a color
