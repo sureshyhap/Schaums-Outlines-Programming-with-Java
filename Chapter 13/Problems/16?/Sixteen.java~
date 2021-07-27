@@ -1,0 +1,11 @@
+import java.awt.*;
+import javax.swing.*;
+
+public class Sixteen {
+    public static void main(String[] args) {
+	Dimension screen_size = Toolkit.getDefaultToolkit().getScreenSize();
+	JFrame frame = new JFrame();
+	frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	
+    }
+}
